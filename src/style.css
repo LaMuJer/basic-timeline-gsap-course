@@ -33,6 +33,10 @@ body {
   font-size: 1.3rem;
 }
 
+.preloader h1 span {
+  opacity: 0;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -68,6 +72,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 nav .links {

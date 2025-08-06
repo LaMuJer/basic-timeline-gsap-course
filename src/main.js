@@ -27,10 +27,10 @@ timeline
     {
       yPercent: -120,
       stagger: {
-        each: 0.03,
+        each: 0.07,
         from: "end",
       },
-      ease: "circ.out",
+      ease: "power1.out",
     },
     "<"
   );

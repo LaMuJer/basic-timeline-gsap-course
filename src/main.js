@@ -6,7 +6,7 @@ const timeline = gsap.timeline();
 timeline
   .to(".preloader h1 span", {
     opacity: 1,
-    stagger: 0.1,
+    stagger: 1,
     ease: "power1.inOut",
   })
   .to(".overlay", {
